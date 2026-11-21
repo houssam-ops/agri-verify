@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1e1a">
+  <meta name="description" content="Watch the 33-second Agri-Verify agricultural insurance platform demonstration.">
+  <title>Watch Agri-Verify — Product Demo</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; color: #effbf4; background: radial-gradient(circle at 75% 0%, #1f4b34 0%, #112d27 35%, #081612 75%); }
+    main { max-width: 1120px; margin: 0 auto; padding: 48px 24px 64px; }
+    a { color: inherit; text-decoration: none; }
+    nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 48px; flex-wrap: wrap; }
+    .brand { display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 750; letter-spacing: -.03em; }
+    .brand .mark { display: grid; place-items: center; background: #2b714b; border: 1px solid #65ba86; border-radius: 14px; width: 42px; height: 42px; font-size: 23px; }
+    .navlink, .download { padding: 10px 16px; border: 1px solid #3c6953; border-radius: 10px; color: #cfe9d8; font-size: 14px; }
+    .eyebrow { display: inline-flex; font-size: 12px; font-weight: 650; text-transform: uppercase; letter-spacing: .13em; color: #a5dbb4; }
+    h1 { font-size: clamp(32px, 5vw, 60px); line-height: 1.1; letter-spacing: -.045em; margin: 14px 0 14px; }
+    .desc { color: #c3d5cb; font-size: clamp(15px, 2vw, 18px); line-height: 1.65; margin-bottom: 28px; max-width: 760px; }
+    .player { padding: 6px; border-radius: 20px; border: 1px solid #436f58; background: #153027; box-shadow: 0 28px 70px rgba(0,0,0,.35); overflow: hidden; }
+    video { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: 14px; background: #000; object-fit: contain; }
+    .meta { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; margin: 22px 0 0; }
+    .detail { color: #b8cfc2; font-size: 14px; }
+    .download { display: inline-flex; align-items: center; gap: 8px; transition: background .15s ease; }
+    .download:hover, .navlink:hover { background: rgba(145,214,163,.13); }
+    footer { margin-top: 54px; color: #8eada0; font-size: 13px; }
+    footer a { text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 600px) { main { padding-top: 20px; } nav { margin-bottom: 32px; } .player { border-radius: 12px; } video { border-radius: 8px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="Navigation">
+      <a class="brand" href="https://github.com/houssam-ops/agri-verify"><span class="mark">🌾</span> Agri-Verify</a>
+      <a class="navlink" href="https://github.com/houssam-ops/agri-verify">← Back to GitHub</a>
+    </nav>
+    <div class="eyebrow">Product walkthrough · 33 seconds</div>
+    <h1>See Agri-Verify in action.</h1>
+    <p class="desc">Explore the demo of a satellite-assisted agricultural insurance interface: parcel mapping, contract workflows, claim review, reporting, and regional analytics.</p>
+    <section class="player" aria-label="Agri-Verify video demonstration">
+      <video controls playsinline preload="metadata" poster="./assets/dashboard.png" aria-label="Agri-Verify product demonstration">
+        <source src="./assets/agri-verify-demo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video. <a href="./assets/agri-verify-demo.mp4">Open the MP4 video.</a>
+      </video>
+    </section>
+    <div class="meta">
+      <span class="detail">🎥 33-second demonstration · MP4 · Built for in-browser playback</span>
+      <a class="download" href="./assets/agri-verify-demo.mp4" download="agri-verify-demo.mp4">↓ Download video (optional)</a>
+    </div>
+    <footer>Created by <a href="https://github.com/houssam-ops">Houssam ZOUHEIR</a> · <a href="https://houssam-zouheir-portfolio.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/houssam-zouheir/">LinkedIn</a></footer>
+  </main>
+</body>
+</html>
