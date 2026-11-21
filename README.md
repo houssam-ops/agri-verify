@@ -8,7 +8,7 @@
 
 [![Status](https://img.shields.io/badge/status-demo-blue)](#project-status) [![Domain](https://img.shields.io/badge/domain-agritech-green)](#overview) [![Focus](https://img.shields.io/badge/focus-insurtech-6f42c1)](#overview)
 
-**[▶ Watch the 33-second video demo](assets/agri-verify-demo.mp4)** · **[Features](#features)** · **[Screenshots](#screenshots)** · **[Documentation](docs/PROJECT_OVERVIEW.md)**
+**[▶ Watch / download the 33-second demo (MP4)](https://github.com/houssam-ops/agri-verify/raw/refs/heads/main/assets/agri-verify-demo.mp4)** · **[Features](#features)** · **[Screenshots](#screenshots)** · **[Documentation](docs/PROJECT_OVERVIEW.md)**
 
 </div>
 
@@ -46,7 +46,11 @@
 
 ## Video walkthrough
 
-🎥 **[▶ Watch / download the actual 33-second demonstration (MP4)](assets/agri-verify-demo.mp4)**
+[![▶ Agri-Verify — Watch the 33-second product walkthrough](assets/dashboard.png)](https://github.com/houssam-ops/agri-verify/raw/refs/heads/main/assets/agri-verify-demo.mp4)
+
+**[▶ Open the full video (MP4)](https://github.com/houssam-ops/agri-verify/raw/refs/heads/main/assets/agri-verify-demo.mp4)** · **[⬇ Download MP4](https://raw.githubusercontent.com/houssam-ops/agri-verify/main/assets/agri-verify-demo.mp4)**
+
+The MP4 is included in this repository at `assets/agri-verify-demo.mp4` (33 seconds, H.264/AAC). Clicking the preview opens the video file; depending on browser/GitHub handling, it may play in a new tab or download. An inline GitHub video player requires an uploaded GitHub video attachment URL rather than a normal repository-file link.
 
 The recording demonstrates the navigation from the dashboard to parcel mapping, contract registration, report preview, claim processing, analytics, and a subscription interface.
 
