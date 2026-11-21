@@ -8,7 +8,7 @@
 
 [![Status](https://img.shields.io/badge/status-demo-blue)](#project-status) [![Domain](https://img.shields.io/badge/domain-agritech-green)](#overview) [![Focus](https://img.shields.io/badge/focus-insurtech-6f42c1)](#overview)
 
-**[▶ Watch / download the 33-second demo (MP4)](https://github.com/houssam-ops/agri-verify/raw/refs/heads/main/assets/agri-verify-demo.mp4)** · **[Features](#features)** · **[Screenshots](#screenshots)** · **[Documentation](docs/PROJECT_OVERVIEW.md)**
+**[▶ Watch the 33-second demo in your browser](https://raw.githack.com/houssam-ops/agri-verify/main/watch.html)** · **[Features](#features)** · **[Screenshots](#screenshots)** · **[Documentation](docs/PROJECT_OVERVIEW.md)**
 
 </div>
 
@@ -46,11 +46,13 @@
 
 ## Video walkthrough
 
-[![▶ Agri-Verify — Watch the 33-second product walkthrough](assets/dashboard.png)](https://github.com/houssam-ops/agri-verify/raw/refs/heads/main/assets/agri-verify-demo.mp4)
+[![▶ Watch Agri-Verify demo in your browser](assets/dashboard.png)](https://raw.githack.com/houssam-ops/agri-verify/main/watch.html)
 
-**[▶ Open the full video (MP4)](https://github.com/houssam-ops/agri-verify/raw/refs/heads/main/assets/agri-verify-demo.mp4)** · **[⬇ Download MP4](https://raw.githubusercontent.com/houssam-ops/agri-verify/main/assets/agri-verify-demo.mp4)**
+### [▶ Watch the full video online (33 seconds)](https://raw.githack.com/houssam-ops/agri-verify/main/watch.html)
 
-The MP4 is included in this repository at `assets/agri-verify-demo.mp4` (33 seconds, H.264/AAC). Clicking the preview opens the video file; depending on browser/GitHub handling, it may play in a new tab or download. An inline GitHub video player requires an uploaded GitHub video attachment URL rather than a normal repository-file link.
+**[⬇ Download MP4 (optional)](https://raw.githubusercontent.com/houssam-ops/agri-verify/main/assets/agri-verify-demo.mp4)**
+
+Click **Watch the full video online** or the preview above to open a dedicated HTML5 player with video controls — no download required. The player is hosted through [raw.githack.com](https://raw.githack.com/), which serves this repository's `watch.html` and the MP4 with browser-compatible content types. Video playback depends on browser support and availability of that third-party proxy. The video file remains in this repository at `assets/agri-verify-demo.mp4` (33 seconds, H.264/AAC).
 
 The recording demonstrates the navigation from the dashboard to parcel mapping, contract registration, report preview, claim processing, analytics, and a subscription interface.
 
@@ -73,6 +75,7 @@ agri-verify/
 ├── .gitignore
 ├── .gitattributes
 ├── DEPLOY_GITHUB.md
+├── watch.html                # Browser video player
 ├── publish-to-github.sh
 ├── CONTRIBUTING.md
 ├── SECURITY.md
