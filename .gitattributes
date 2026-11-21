@@ -1,0 +1,5 @@
+# Mark visual assets and recorded walkthroughs as binary.
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
